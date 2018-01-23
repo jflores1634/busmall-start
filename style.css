@@ -1,0 +1,22 @@
+body {
+  width:950px;
+  margin: 20px auto;
+  background-color: #001433;
+}
+
+header {
+  background-color: #4DFF00;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}

@@ -17,6 +17,8 @@ function Mall(filepath, name) {
   Mall.allMallImg.push(this);
 }
 
+
+
 new Mall('img/bag.jpg', '');
 new Mall('img/banana.jpg', '');
 new Mall('img/bathroom.jpg', '');
@@ -40,6 +42,9 @@ new Mall('img/wine-glass.jpg', '');
 var imgEl = document.getElementById('random-img');
 
 imgEl.addEventListener('click', randomImg);
+imgEl.addEventListener('click', randomImg);
+imgEl.addEventListener('click', randomImg);
+
 
 function randomImg() {
   //random number generator to return a number between 0 and the length of the array (Mall.allMallImg)

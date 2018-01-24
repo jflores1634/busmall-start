@@ -17,6 +17,8 @@ function Mall(filepath, name) {
   Mall.allMallImg.push(this);
 }
 
+
+
 new Mall('img/bag.jpg', '');
 new Mall('img/banana.jpg', '');
 new Mall('img/bathroom.jpg', '');

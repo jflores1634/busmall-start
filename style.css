@@ -2,10 +2,11 @@ body {
   width:950px;
   margin: 20px auto;
   background-color: #001433;
+  color: #fff;
 }
 
 header {
-  background-color: #4DFF00;
+  background-color: #A5ACAF;
 }
 
 h1 {
@@ -23,4 +24,13 @@ h2 {
 
 img {
   width: 400px;
+  display: inline;
+}
+section, canvas {
+  padding: 30px;
+  border: 2px solid green;
+}
+
+canvas {
+  background-color: #fff;
 }
